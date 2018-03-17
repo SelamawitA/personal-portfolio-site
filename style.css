@@ -22,3 +22,35 @@ nav ul{
   font-size: 42px;
   text-align:center;
 }
+
+#personal-information{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  padding:15px;
+}
+
+#background{
+  padding-right: 15px;
+}
+footer{
+  background-color: lightgray;
+}
+#social-media-contact > ul{
+  display:flex;
+  list-style-type: none;
+  justify-content: flex-end;
+  height:80px;
+  margin-bottom:0px;
+  margin-top:0px;
+  font-size: 40px;
+}
+#linkedin{
+  margin-left:40px;
+  margin-right:20px;
+  margin-top: 7px;
+
+}
+
+#twitter{
+  margin-top:8px;
+}
