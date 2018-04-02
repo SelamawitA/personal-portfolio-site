@@ -1,0 +1,93 @@
+body{
+  margin:0px;
+  background-color: #FFD700;
+  font-family: 'IBM Plex Mono', monospace;
+}
+nav ul{
+  display:flex;
+  list-style-type: none;
+  justify-content: space-between;
+  padding:20px;
+  background-color: #2F4F4F;
+  color: white;
+  margin-top: 0px;
+}
+
+nav  ul  li  a{
+  color: white;
+  text-decoration: none;
+}
+
+header{
+  margin-left: 5%;
+}
+
+h2{
+  margin-left:10%;
+}
+
+#cooking{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+
+}
+#cooking p{
+  padding: 20px;
+}
+
+#personal-interest{
+  background-color: lightgray;
+  margin-left: 10px;
+}
+#history-of-ethiopian-cooking{
+  background-color: lightgray;
+   border-left: 5px solid gold;
+}
+
+#favorite-foods{
+  background-color: lightgray;
+  border-left: 5px solid gold;
+  margin-right:20px;
+}
+
+#list-foods ul{
+  display:flex;
+  list-style-type: none;
+  justify-content: space-around;
+  margin-top:80px;
+}
+
+#list-foods span{
+  display:block;
+  font-size: 22px;
+}
+
+img{
+  border-radius: 50%
+}
+
+footer{
+  margin-top: 20%;
+  background-color: #2F4F4F;
+}
+
+#social-media-contact > ul{
+  display:flex;
+  list-style-type: none;
+  justify-content: flex-end;
+  height:80px;
+  margin-bottom:0px;
+  margin-top:0px;
+  font-size: 40px;
+}
+
+
+#linkedin{
+  margin-left:40px;
+  margin-right:20px;
+  margin-top: 7px;
+}
+
+#twitter{
+  margin-top:8px;
+}
